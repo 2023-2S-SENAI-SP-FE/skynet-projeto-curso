@@ -1,0 +1,33 @@
+.container{
+    height: 200px;
+
+}
+.container2{
+    height: 200px;
+    width: 300px;
+}
+
+.display-flex {
+display: flex;
+}
+
+.justify-content {
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: flex-end;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.align-content{
+align-content: center;
+}
+
+
+
+
