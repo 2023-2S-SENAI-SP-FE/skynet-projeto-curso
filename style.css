@@ -1,33 +1,92 @@
-.container{
-    height: 200px;
+.contido-img-ccc {
+    margin-left: 20px;
+    height: 100px;
 
 }
-.container2{
-    height: 200px;
-    width: 300px;
+
+.contido-img-pagamentos {
+    margin: 5px;
+    height: 75px;
 }
+
+.contido-img-caminhão {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 70px;
+}
+
+.contido-img-escudo {
+
+}
+
+.contido-text-caminhão {
+    
+    margin: 5px;
+    width: 75px;
+}
+
+.contido-text-caixa {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 110px;
+
+}
+
+.contido-text-cartão {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 110px;
+}
+
+.container-ccc{
+    height: 150px;
+    border-bottom: 2px solid rgb(11, 10, 10);
+    margin-bottom: 10px
+}
+
+.container-redes{
+    height: 100px;
+    border: 5px solid rgb(5, 4, 5)
+}
+
+.container-pagamentos{
+    height: 100px;
+    border: 5px solid rgb(5, 4, 5)
+}
+
+
 
 .display-flex {
 display: flex;
 }
 
 .justify-content {
+
+    justify-content: center;
+}
+
+.justify-content-end {
     justify-content: flex-end;
-    justify-content: space-between;
 }
 
 .align-items {
-    align-items: flex-end;
+    align-items: center;
 }
 
-.flex-direction{
+.flex-direction-column{
     flex-direction: column;
+    flex: space-around;
 }
 
 .align-content{
 align-content: center;
 }
-
 
 
 
