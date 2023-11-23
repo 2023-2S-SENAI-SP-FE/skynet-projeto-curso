@@ -1,0 +1,41 @@
+body {
+    margin: 20px 50px;
+    background-color: #474747;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #ffca00;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+}
+
+#menu ul li a:link, a:visited, a:active {
+    text-decoration: underline;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+    color: #ffca80;
+}
+
+.flex-container {
+    display: flex;
+    
+    
+}
+
+.flex-container > section {
+    margin: 20px;
+    padding: 40px;
+}
+
+footer {
+    
+}
+
