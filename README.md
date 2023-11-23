@@ -1,1 +1,0 @@
-# skynet-projeto-curso
