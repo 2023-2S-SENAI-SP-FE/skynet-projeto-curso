@@ -68,3 +68,34 @@ padding: 3rem 3.5rem;
 #pix {
     background-color: aqua;
 }
+
+
+
+/* Login */
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contido {
+
+
+    height: 100px;
+    width: 100px;
+    background-color: #FDC901;
+    border-radius: 20px;
+}
+
+.alinhamento-label {
+    display: flex;
+    align-items: center;
+    
+
+    
+    
+    
+}
+
