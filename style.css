@@ -27,15 +27,33 @@ body {
 .flex-container {
     display: flex;
     
+
+    
     
 }
 
 .flex-container > section {
-    margin: 20px;
-    padding: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav {
+    position: relative;
+    height: 150px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 footer {
-    
+    position: relative;
+    background-color: #ffca80;
+    height: 150px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
