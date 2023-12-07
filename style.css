@@ -33,10 +33,18 @@ body {
 }
 
 .alinhamento-label {
-
-    display: flex;
-    
-    /* align-items: center;
-    justify-content: center; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100svw;
 
 }
+
+.controle {
+    margin-bottom: 25px;
+}
+
+/* .logo {
+    height: 20px;
+    width: 20px;
+} */
