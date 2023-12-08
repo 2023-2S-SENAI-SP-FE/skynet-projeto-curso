@@ -18,3 +18,20 @@ function mudarImagem() {
     setTimeout("mudarImagem()", 3000)
 }
 window.onload = mudarImagem;// 
+
+async function listaCategorias() {
+
+    await fetch('./loja.json')
+    .then(resposta => resposta,json())
+    .then(resposta => {
+
+         
+            resposta.forEach(categoria => {
+
+                document.getElementById('categorias').innerHTML += `<p>Id: ${categoria.id}, Imagem ilustrativa: ${categoria.imagem}, Tipo do Produto: ${categoria.tipo}, Discriminação: ${categoria.discriminacao}, Preço: ${preco}<br>  </p>`
+            
+        });
+    });
+}
+
+listaCategorias();
