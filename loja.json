@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "imagem": "./img/imagem1.png",
+        "tipo": "tenis",
+        "discriminacao": "Nike Renew Ride",
+        "preco": 327.40
+    },
+
+    {
+        "id": 2,
+        "imagem": "./img/imagem2.png",
+        "tipo": "tenis",
+        "discriminacao": "Nike JJ Bond",
+        "preco": 569.34
+    },
+
+    {
+        "id": 3,
+        "imagem": "./img/imagem3.png",
+        "tipo": "tenis",
+        "discriminacao": "Adidas Durano",
+        "preco": 446.98
+    },
+
+    {
+        "id": 4,
+        "imagem": "./img/imagem4.png",
+        "tipo": "tenis",
+        "discriminacao": "Puma 786",
+        "preco": 356.09
+    },
+
+    {
+        "id": 5,
+        "imagem": "./img/imagem5.png",
+        "tipo": "tenis",
+        "discriminacao": "Joma calle",
+        "preco": 378.43
+    },
+
+    {
+        "id": 6,
+        "imagem": "./img/imagem6.png",
+        "tipo": "tenis",
+        "discriminacao": "Diadora guga",
+        "preco": 243.90
+    }
+
+    
+
+
+]
