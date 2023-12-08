@@ -33,11 +33,16 @@ body {
 }
 
 .alinhamento-label {
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100svw;
 
+}
+
+.logo {
+    margin-bottom: 25px;
 }
 
 .controle {
