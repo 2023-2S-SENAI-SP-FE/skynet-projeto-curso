@@ -26,7 +26,7 @@ body {
 
 .contido {
     display: flex;
-    height: 400px;
+    height: 550px;
     width: 300px;
     background-color: #FDC901;
     border-radius: 10px;
@@ -41,14 +41,25 @@ body {
 
 }
 
-.botao-login {
-      padding: 10px;
-      background-color: #fd9c01;
-      width: 100%;
-      border-radius: 10px;
-      border: none;
-      color: white;
+.botao {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #fd9c01;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 
+
+}
+
+.botao:hover {
+    background-color: #994D1C;  
+  
 }
 
 .logo {
@@ -63,5 +74,4 @@ body {
     padding: 15px;
     outline: none;
     border: none;
-    border-radius: 10px;;
 }
