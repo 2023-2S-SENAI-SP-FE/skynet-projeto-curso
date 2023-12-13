@@ -30,6 +30,7 @@ body {
     width: 300px;
     background-color: #FDC901;
     border-radius: 10px;
+    
 }
 
 .alinhamento-label {
@@ -38,6 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100svw;
+    
 
 }
 
@@ -58,8 +60,7 @@ body {
 }
 
 .botao:hover {
-    background-color: #994D1C;  
-  
+    background-color: #994D1C; 
 }
 
 .logo {
@@ -75,3 +76,8 @@ body {
     outline: none;
     border: none;
 }
+
+.voltarIndex {
+    display: flex;
+}
+
