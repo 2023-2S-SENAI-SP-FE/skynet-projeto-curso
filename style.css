@@ -17,11 +17,18 @@ body {
     background-color: #474747;
 }
 
+/* Isso será apagado, ancora de link apenas para navegar da index para a página de login */
+.linkTemporario {
+    color: aliceblue;
+    font-size: large;
+}
+
 .conteiner {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100svh;
+    width: 100svw;
 }
 
 .contido {
@@ -77,7 +84,20 @@ body {
     border: none;
 }
 
+.ancoraLink {
+    color: #474747;
+    text-decoration: none;
+}
+
 .voltarIndex {
     display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 25px;
+    
+}
+
+.esqueciSenha {
+    margin-top: 25px;
 }
 
