@@ -101,3 +101,7 @@ body {
     margin-top: 25px;
 }
 
+.ancoraLink:hover {
+    transition: 0.4s;
+    color: #fff;
+}
