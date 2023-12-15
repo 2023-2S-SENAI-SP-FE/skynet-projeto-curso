@@ -12,96 +12,11 @@
 
 body {
     height: 100svh;
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: #474747;
 }
 
-/* Isso será apagado, ancora de link apenas para navegar da index para a página de login */
-.linkTemporario {
-    color: aliceblue;
-    font-size: large;
-}
-
-.conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100svh;
-    width: 100svw;
-}
-
-.contido {
-    display: flex;
-    height: 550px;
-    width: 300px;
-    background-color: #FDC901;
-    border-radius: 10px;
-    
-}
-
-.alinhamento-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100svw;
-    
-
-}
-
-.botao {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #fd9c01;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-
-
-}
-
-.botao:hover {
-    background-color: #994D1C; 
-}
-
-.logo {
-    margin-bottom: 25px;
-}
-
-.controle-label {
-    margin-bottom: 25px;
-}
-
-.input {
-    padding: 15px;
-    outline: none;
-    border: none;
-}
-
-.ancoraLink {
-    color: #474747;
-    text-decoration: none;
-}
-
-.voltarIndex {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-left: 25px;
-    
-}
-
-.esqueciSenha {
-    margin-top: 25px;
-}
-
-.ancoraLink:hover {
-    transition: 0.4s;
-    color: #fff;
+.navbar {
+   background-color: #ff0000; 
 }
