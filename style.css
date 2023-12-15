@@ -67,24 +67,26 @@
 }
 
 .container-ccc{
+
     height: 150px;
-    border-bottom: 2px solid rgb(11, 10, 10);
-    margin: 10px;
+    border-bottom: 2px solid #474747;
+
+    background-color: #c6a216;
     
 }
 
 .container-redes{
     height: 180px;
-    border: 2px solid rgb(5, 4, 5);
-    border-radius: 20px;
+    border-bottom: 2px solid #474747;
+    background-color: #c6a216;
 }
 
 
 .container{
     height: 150px;
-    margin: 10px;
-    border: 2px solid rgb(5, 4, 5);
-    border-radius: 10px;
+    
+    border-bottom: 2px solid #474747;
+    background-color: #c6a216;
 }
 
 
