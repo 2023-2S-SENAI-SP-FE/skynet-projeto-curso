@@ -1,22 +1,50 @@
-/* Login */
+/* Navbarr */
 
 * {
+    font-family: 'inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: initial;
-    font-weight: initial;
-    text-align: initial;
+    letter-spacing: 1px;
+    }
     
-}
+    header {
+        height: 10vh;
+        background-color: #FDC901;
+        display: flex;
+        align-items: center;    
+    }
 
-body {
-    height: 100svh;
-    width: 100%;
-    margin: auto;
-    background-color: #474747;
-}
+    .conteiner {
+        display: flex;
+        justify-content: space-around;
+        width: 100svw;
+    }
+    
+    .barra_pesquisa {
+        background-color: #D9D9D9;
+        border: none;
+        border-radius: 20px;
+        width: 500px;
+        height: 50px;
+        padding: 5px;
+        outline: 0;
+    }
+    
+    
+    
+    .logo_skynet {
+        height: 50px;
+    }
+    
+    .icon_bag, .icon_user {
+        height: 30px;   
+    }
 
-.navbar {
-   background-color: #ff0000; 
-}
+    
+    .icones_header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
