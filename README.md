@@ -1,1 +1,1 @@
-# skynet-projeto-curso
+# myrepo-skynet

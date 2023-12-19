@@ -1,5 +1,4 @@
 let image = [
-    './img/imagem1.png',
     './img/imagem2.png',
     './img/imagem3.png',
     './img/imagem4.png',
@@ -22,16 +21,17 @@ window.onload = mudarImagem;//
 async function listaCategorias() {
 
     await fetch('./loja.json')
-    .then(resposta => resposta,json())
+    .then(resposta => resposta.json())
     .then(resposta => {
 
          
-            resposta.forEach(categoria => {
+            for (let i=0; i < resposta.length; i++) {
 
-                document.getElementById('categorias').innerHTML += `<p>Id: ${categoria.id}, Imagem ilustrativa: ${categoria.imagem}, Tipo do Produto: ${categoria.tipo}, Discriminação: ${categoria.discriminacao}, Preço: ${preco}<br>  </p>`
-            
+                document.getElementById('categorias').innerHTML += `<p> Imagem ilustrativa:</p> <img ${resposta[i].imagem}><br><br><p> Tipo: ${resposta[i].tipo}<br><br> ${resposta[i].discriminacao}<br><br> ${resposta[i].preco}<br><br><br><br></p>`;
+            }
+
         });
-    });
+
 }
 
 listaCategorias();

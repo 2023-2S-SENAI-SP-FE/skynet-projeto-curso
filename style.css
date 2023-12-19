@@ -1,59 +1,52 @@
 body {
     margin: 20px 50px;
-    background-color: #474747;
+    background-color: #fff;
 }
 
-#menu ul li {
+#navbar {
+    position: relative;
+    height: 150px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar ul li {
     display: inline;
 }
 
-#menu ul li a {
-    color: #ffca00;
+#navbar ul li a {
+    color: #434138;
     font: 1.2em sans-serif;
     font-weight: bold;
-    padding: 20px;
+    padding: 30px;
     display: inline-block;
 }
 
-#menu ul li a:link, a:visited, a:active {
-    text-decoration: underline;
+#navbar ul li a:link, a:visited, a:active {
+    text-decoration: none;
 }
 
-#menu ul li a:hover {
-    text-decoration: underline;
-    color: #ffca80;
+#navbar ul li a:hover {
+    text-decoration: none;
+    color: #eb8901;
 }
 
-.flex-container {
+#carousel {
     display: flex;
-    
-
-    
-    
-}
-
-.flex-container > section {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-nav {
-    position: relative;
-    height: 150px;
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-footer {
-    position: relative;
-    background-color: #ffca80;
-    height: 150px;
-    width: 920px;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
+#img-carousel {
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+Estilização da loja.html
+*/
+
+#loja {
+    color: antiquewhite;
+}
