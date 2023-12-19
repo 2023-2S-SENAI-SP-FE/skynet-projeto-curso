@@ -1,4 +1,4 @@
-/* Navbarr */
+/* Navbar */
 
 * {
     font-family: 'inter', sans-serif;
@@ -7,13 +7,13 @@
     box-sizing: border-box;
     letter-spacing: 1px;
     }
-    
     header {
         height: 10vh;
         background-color: #FDC901;
         display: flex;
         align-items: center;    
     }
+    
 
     .conteiner {
         display: flex;
@@ -52,6 +52,13 @@
 
 
 /* Footer  */
+
+.container-ccc{
+    height: 100px;
+    background-color: #c6a216;
+    border-bottom: 2px solid #474747;
+ 
+}
 
 .contido-img-ccc {
     margin-left: 20px;
@@ -118,23 +125,14 @@
 
 }
 
-.container-ccc{
-
-    height: 150px;
-    border-bottom: 2px solid #474747;
-
-    background-color: #c6a216;
-    
-}
-
 .container-redes{
-    height: 180px;
+    height: 100px;
     border-bottom: 2px solid #474747;
     background-color: #c6a216;
 }
 
 
-.container{
+.container-logo-footer{
     height: 150px;
     
     border-bottom: 2px solid #474747;
