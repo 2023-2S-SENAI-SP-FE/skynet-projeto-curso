@@ -308,3 +308,55 @@ padding: 3rem 3.5rem;
 
     }
 }
+body {
+    margin: 20px 50px;
+    background-color: #fff;
+}
+
+#navbar {
+    position: relative;
+    height: 150px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    color: #434138;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    display: inline-block;
+}
+
+#navbar ul li a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    color: #eb8901;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-carousel {
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+Estilização da loja.html
+*/
+
+#loja {
+    color: antiquewhite;
+}
