@@ -437,11 +437,6 @@ padding: 3rem 3.5rem;
     border: none;
 }
 
-.ancoraLink {
-    color: #474747;
-    text-decoration: none;
-}
-
 .voltarIndex {
     display: flex;
     flex-direction: column;
@@ -450,7 +445,16 @@ padding: 3rem 3.5rem;
     
 }
 
-.esqueciSenha {
+.ancoraLink {
+    color: #474747;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.link-senha-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 25px;
 }
 
