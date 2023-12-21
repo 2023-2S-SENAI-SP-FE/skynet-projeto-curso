@@ -416,7 +416,6 @@ padding: 3rem 3.5rem;
     cursor: pointer;
     transition-duration: 0.4s;
 
-
 }
 
 .botao-login:hover {
@@ -442,6 +441,7 @@ padding: 3rem 3.5rem;
     flex-direction: column;
     align-self: flex-start;
     margin-left: 25px;
+    height: 10vh;
     
 }
 
@@ -461,4 +461,55 @@ padding: 3rem 3.5rem;
 .ancoraLink:hover {
     transition: 0.4s;
     color: #fff;
+}
+
+
+/* ################################# TELA CADASTRO #################################### */
+
+.conteiner-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    width: 100svw;
+}
+
+.contido-cadastro {
+    display: flex;
+    height: 700px;
+    width: 500px;
+    background-color: #FDC901;
+    border-radius: 10px;
+    
+}
+
+.alinhamento-label-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100svw;
+    
+}
+
+.voltar-home-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.link-home-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-cadastro {
+    margin: 50px 0 20px 50px ;
+}
+
+.controle-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
