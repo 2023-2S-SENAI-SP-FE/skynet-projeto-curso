@@ -243,10 +243,6 @@ box-sizing: border-box;
 letter-spacing: 1px;
 }
 
-main{
-    height: 80vh;
-}
-
 footer {
     width: 100%;
     color: var(--color-neutral-40);
