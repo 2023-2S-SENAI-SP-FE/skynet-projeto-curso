@@ -362,3 +362,90 @@ padding: 3rem 3.5rem;
 
     }
 }
+
+
+
+/* ################################# TELA LOGIN #################################### */
+
+.conteiner-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    width: 100svw;
+}
+
+.contido-login {
+    display: flex;
+    height: 550px;
+    width: 300px;
+    background-color: #FDC901;
+    border-radius: 10px;
+    
+}
+
+.alinhamento-label-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100svw;
+    
+
+}
+
+.botao-login {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #fd9c01;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+
+}
+
+.botao-login:hover {
+    background-color: #994D1C; 
+}
+
+.logo-login {
+    margin-bottom: 25px;
+}
+
+.controle-label {
+    margin-bottom: 25px;
+}
+
+.input {
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.ancoraLink {
+    color: #474747;
+    text-decoration: none;
+}
+
+.voltarIndex {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 25px;
+    
+}
+
+.esqueciSenha {
+    margin-top: 25px;
+}
+
+.ancoraLink:hover {
+    transition: 0.4s;
+    color: #fff;
+}
