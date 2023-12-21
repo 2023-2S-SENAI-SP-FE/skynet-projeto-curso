@@ -92,10 +92,27 @@
     }
 
     /* Estilização da loja.html */
-    
-    #loja {
-        color: antiquewhite;
+    .item-1 { grid-area: header;}
+    .item-2 { grid-area: menu;
+              height: 400px;;
     }
+    .item-3 { grid-area: left-1;}
+    .item-4 { grid-area: rigth-1;}
+    .item-5 { grid-area: left-2;}
+    .item-6 { grid-area: rigth-2;}
+
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        'header, header, header'
+        'menu, left-1, right-1'
+        'menu, left-2, rigth-2';
+        background-color: #474747;
+        align-items: center;
+
+    }
+
+    /* Fim estilização da loja.html */
 
     body {
         background-color: #fff;
