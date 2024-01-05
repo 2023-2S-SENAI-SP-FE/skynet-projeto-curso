@@ -4,73 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>SkyNet New E-commerce</title>
     
 </head>
 
 <body>
 
-    <header>
-       
-
-        <nav>
-
-            <div class="conteiner">
-
-
-                <img class="logo_skynet" src="./img/skynet-logo.png">
-        
-                <div class="divbusca">
-        
-                    <i class="uil uil-search"></i>
-                    <input class="barra_pesquisa" type="search" id="txtbusca" placeholder="Buscar...">
-                    
-                </div>
-        
-                <div class="icones_header">
-        
-                    <img class="icon_bag" src="./img/bag.png">
-                    <a href="./login.html">
-                        <img class="icon_user" src="./img/user.png">
-                    </a>
-        
-                </div>
-
-            </div>
-
-
-            <div id="navbar">
-                <ul>
-                    <li>
-                        <a href="Quem somos?">Quem somos?</a>
-                    </li>
-                    <li>
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li>
-                        <a href="blackfriday.html">BLACK-FRIDAY</a>
-                    </li>
-                    <li>
-                        <a href="NIKE BASKET">NIKE BASKET</a>
-                    </li>
-                    <li>
-                        <a href="loja.html">LOJA</a>
-                    </li>
-                </ul>
-
-            </div>
+     <!-- inicio header -->
+     <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div class="container">
             
+            <a href="#" class="navbar-brand">
+              <img src="./img/Logo Skynet.png">
+            </a>
+  
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse text-white" id="nav-principal">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="quemsomos.html" class="nav-link">Quem somos?</a>
+                </li>
+                <li class="nav-item">
+                  <a href="blackfriday.html" class="nav-link">Black Friday</a>
+                </li>
+                <li class="nav-item">
+                  <a href="loja.html" class="nav-link">Like Basket</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="btn btn-outline-light ml-5">LOGIN</a>
+                </li>
+              </ul>
+            </div>
+  
+          </div>
         </nav>
-        
-        
-
-    </header>
-
+      </header>
+      <!-- fim header -->
+  
+    <!-- início main -->
     <main>
         <section id="section1">
             
@@ -94,7 +73,9 @@
         </section>
            
     </main>
-    
+    <!-- final main -->
+
+    <!-- início footer -->
     <footer>
         
         <div class = "container-ccc display-flex aling-items justify-content-center flex-direction">
@@ -225,7 +206,10 @@
     </div>
     
     </footer>
-    
-
+    <!-- final footer -->
+<!-- referência dos arquivos bootstrap.js -->
+<script src="./js/script.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
