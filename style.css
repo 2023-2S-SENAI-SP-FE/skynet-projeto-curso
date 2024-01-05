@@ -123,21 +123,23 @@
 .container-ccc{
     height: 100px;
     background-color: #c6a216;
-    border-bottom: 2px solid #474747;
- 
+    border-bottom: 2px solid #212121;
+    display: flex;
+    align-items: center;
 }
 
 .contido-img-ccc {
+    display: flex;
     margin-left: 20px;
     height: 100px;
-
+display: flex;
+align-items: center;
 }
 
 .contido-img-pagamentos {
     margin: 5px;
     height: 75px;
     color: #d12121;
-   
 }
 
 .contido-img-caminhão {
@@ -146,6 +148,8 @@
     margin-bottom: 5px;
     margin-left: 5px;
     width: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .contido-img-escudo {
