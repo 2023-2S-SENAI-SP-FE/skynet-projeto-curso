@@ -514,3 +514,22 @@ padding: 3rem 3.5rem;
     justify-content: center;
 
 }
+
+
+/* ################################# LOJA #################################### */
+.container {
+    flex-basis: 100%;
+}
+
+.linha-loja {
+    height: 300px;
+    border: #575757 1px solid;
+}
+
+.div-coluna-filtro {
+    border: #575757 1px solid;
+}
+
+.div-coluna-produto {
+    border: #575757 1px solid;
+}

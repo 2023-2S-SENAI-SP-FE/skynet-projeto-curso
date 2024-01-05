@@ -7,45 +7,238 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap.css">
+
     <title>SkyNet New E-commerce</title>
+
 </head>
 
 <body>
 
     <header>
 
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="Quem somos?">Quem somos?</a>
-                </li>
-                <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="blackfriday.html">BLACK-FRIDAY</a>
-                </li>
-                <li>
-                    <a href="NIKE BASKET">NIKE BASKET</a>
-                </li>
-                <li>
-                    <a href="loja.html">VESTUÁRIO TIMES</a>
-                </li>
-            </ul>
+
+        <nav>
+
+            <div class="conteiner">
+
+
+                <a href="index.html">
+                    <img class="logo_skynet" src="./img/skynet-logo.png">
+                </a>
+
+                <div class="divbusca">
+
+                    <i class="uil uil-search"></i>
+                    <input class="barra_pesquisa" type="search" id="txtbusca" placeholder="Buscar...">
+
+                </div>
+
+                <div class="icones_header">
+
+                    <img class="icon_bag" src="./img/bag.png">
+
+                    <a href="./login.html">
+                        <img class="icon_user" src="./img/user.png">
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div id="navbar">
+                <ul>
+                    <li>
+                        <a href="Quem somos?">Quem somos?</a>
+                    </li>
+                    <li>
+                        <a href="blackfriday.html">BLACK-FRIDAY</a>
+                    </li>
+                    <li>
+                        <a href="NIKE BASKET">NIKE BASKET</a>
+                    </li>
+                    <li>
+                        <a href="loja.html">LOJA</a>
+                    </li>
+                </ul>
+
+            </div>
+
         </nav>
 
-        
+
 
     </header>
 
-    <article id="loja">
-        <img  src="./img/" alt="">
-        <p id="categorias"></p><br>
-    </article>
-    
+    <!-- ############# A MAIN AQUI PRA NÃO PERDER ###################### -->
+    <main>
+
+        <div class="container">
+            <div class="row container-fluid linha-loja">
+
+                <div class="col justify-content-center h-100 div-coluna-filtro">
+                    coluna filtro
+                </div>
+
+                <div class="h-100"></div>
+
+                <div class="col justify-content-center div-coluna-produto">
+                    produtos
+                </div>
+
+                <div class="col justify-content-center div-coluna-produto">
+                    produtos
+                </div>
+
+                <div class="col justify-content-center div-coluna-produto">
+                    produtos
+                </div>
+
+                <div class="col justify-content-center div-coluna-produto">
+                    produtos
+                </div>
+
+                
+            </div>
+        </div>
+
+    </main>
+
     <footer>
-        
+
+        <div class="container-ccc display-flex aling-items justify-content-center flex-direction">
+            <div class="contido-img-caminhão">
+                <img height="50" src="./img/truck-fast-solid.svg" alt="Caminhão de frete">
+            </div>
+            <div class="contido-text-caminhão">
+                Frete grátis confira as regras
+            </div>
+            <div class="contido-img-ccc">
+                <img height="50" src="./img/box-solid.svg" alt="Retirada em loja">
+            </div>
+            <div class="contido-text-caixa">
+                Retirada em loja
+            </div>
+            <div class="contido-img-ccc">
+                <img height="50" src="./img/credit-card-solid.svg" alt="Em até 10x sem juros no cartão">
+            </div>
+            <div class="contido-text-cartão">
+                Em até 10x sem juros no cartão
+            </div>
+
+
+        </div>
+
+        <div class="container-redes display-flex align-items justify-content-center flex-direction">
+            <div class="contido-img-escudo">
+                <img height="65" src="./img/shield-halved-solid.svg" alt="Site seguro">
+            </div>
+            <div class="contido-text-escudo">
+                Site 100% seguro
+            </div>
+            <div class="contido-img-facebook">
+                <img height="32" src="./img/facebook-f.svg" alt="facebook skynet">
+            </div>
+            <div class="contido-text-bold">
+                @skynet.store
+            </div>
+            <div class="contido-img-escudo">
+                <img height="35" src="./img/instagram.svg" alt="">
+            </div>
+            <div class="contido-text-bold">
+                @skynet.store
+            </div>
+            <div class="contido-img-escudo">
+                <img height="35" src="./img/x-twitter.svg" alt="">
+            </div>
+            <div class="contido-text-bold">
+                @skynet.store
+            </div>
+
+        </div>
+
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Skynet</h1>
+                <p>Forma de pagamento</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="mastercard">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="visa">
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="pix">
+                        <i class="fa-brands fa-pix"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="boleto">
+                        <i class="fa-solid fa-barcode"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Fale conosco</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">(11) 9-9999-9999</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Skynet.store@gmail.com</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Suporte</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Futebol</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Basquete</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Vôlei</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+
+                <p>
+                    Digite seu e-mail para ser notificado sobre nossas ofertas e novos produtos
+
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-logo-footer display-flex align-items justify-content-center">
+            <img height="100" src="./img/Logo Skynet.png" alt="Logo da Skynet">
+        </div>
+
     </footer>
+
 
 </body>
 
