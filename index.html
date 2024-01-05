@@ -11,7 +11,6 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <!-- Link do bootstrap 5.3 -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -80,9 +79,12 @@
     </header>
 
     <main>
+
+        <!-- carrousel via bootstrap -->
         <section id="carousel">
 
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <!-- slider/indicadores do carrousel -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -97,50 +99,103 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
                         aria-label="Slide 6"></button>
                 </div>
+
+                <!-- imagens do carrsousel -->
                 <div class="carousel-inner carousel">
-                    <div class="carousel-item active">
-                        <img src="img/imagem1.png" class="d-block w-100" alt="...">
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/imagens-carousel/Jordan/frente-certo.png" class="d-block w-100" alt="..." usemap="#carousel-image1">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image1">
+                            <!-- abre uma nova guia com o link informado -->
+                            <area target="_blank" alt="Site do google" title="Site do google" href="https://www.google.com" coords="" shape="default">
+                        </map>
+                        <!-- legenda da imagem -->
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="contorno-carousel">Tenis Nike X</h5>
                             <p class="contorno-carousel">R$: 100,00</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/imagem2.png" class="d-block w-100" alt="...">
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/imagens-carousel/Design sem nome.png" class="d-block w-100" alt="..." usemap="#carousel-image2">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image2">
+                            <area target="_blank" alt="..." title="..." href="./blackfriday.html" coords="" shape="default">
+                        </map>
+                        <!-- legenda da imagem -->
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="contorno-carousel">Tenis Nike X</h5>
                             <p class="contorno-carousel">R$: 100,00</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/imagem3.png" class="d-block w-100" alt="...">
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/frente1.png" class="d-block w-100" alt="..." usemap="#carousel-image3">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image3">
+                            <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                        </map>
+                        <!-- legenda da imagem -->
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://www.google.com" class="contorno-carousel legenda-carousel">Tenis Nike X</a>
+                            <p class="contorno-carousel">R$: 100,00</p>
+                        </div>
+                    </div>
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/frente2.png" class="d-block w-100" alt="..." usemap="#carousel-image4">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image4">
+                            <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                        </map>
+                        <!-- legenda da imagem -->
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="contorno-carousel">Tenis Nike X</h5>
                             <p class="contorno-carousel">R$: 100,00</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/imagem4.png" class="d-block w-100" alt="...">
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/frente1.png" class="d-block w-100" alt="..." usemap="#carousel-image5">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image5">
+                            <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                        </map>
+                    <!-- legenda da imagem -->
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="contorno-carousel">Tenis Nike X</h5>
                             <p class="contorno-carousel">R$: 100,00</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/imagem5.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="contorno-carousel">Tenis Nike X</h5>
-                            <p class="contorno-carousel">R$: 100,00</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/imagem6.png" class="d-block w-100" alt="...">
+
+                    <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <!-- imagem do carrousel -->
+                        <img src="img/frente2.png" class="d-block w-100" alt="..." usemap="#carousel-image6">
+                        <!-- map area para a imagem ser clicável -->
+                        <map name="#carousel-image6">
+                            <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                        </map>
+                        <!-- legenda da imagem -->
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="contorno-carousel">Tenis Nike X</h5>
                             <p class="contorno-carousel">R$: 100,00</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- botão de próximo e anterior do carrousel -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -153,6 +208,7 @@
                 </button>
             </div>
 
+            <!-- fim do carrousel -->
         </section>
 
         

@@ -384,10 +384,10 @@ footer {
     justify-content: center
 }
 
-.carousel {
-    width: 500px;
-    height: 500px
-}
+/* .carousel {
+    width: 93.9%;
+    height: 100%
+} */
 
 .carousel {
     display: block;
@@ -407,4 +407,9 @@ footer {
     /* Define a cor de fundo para a cor da sombra */
     box-shadow: 2px 2px 4px black;
     /* Adiciona sombra preta ao ícone dos botões de navegação */
+}
+
+legenda-carousel {
+    color: black;
+    text-decoration: none;
 }
