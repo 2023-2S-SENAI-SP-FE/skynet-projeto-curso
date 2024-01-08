@@ -22,6 +22,10 @@
         justify-content: space-around;
         width: 100svw;
     }
+
+    .navbar-margin-bottom {
+        margin-bottom: 5px;;
+    }
     
     .barra_pesquisa {
         background-color: #D9D9D9;
@@ -523,16 +527,30 @@ padding: 3rem 3.5rem;
     flex-basis: 100%;
 }
 
-.linha-loja {
-    height: 350px;
-    border: #575757 1px solid;
+.col-filtro {
+    border-radius: 15px;
+    margin: 5px;
 }
 
-.div-coluna-produto {
+.div-col-produto {
+    border-radius: 15px;
     border: #575757 1px solid;
+    height: 300px;
+    margin: 5px;
+}
+
+.div-produtos {
+    border-radius: 15px;
     height: 250px;
 }
 
-.padding-0 {
-    padding: 0;
+.div-produto-contido {
+    border-radius: 15px;
+    margin: 0px 5px 5px 5px;
 }
+
+.div-layout-produto {
+
+}
+
+

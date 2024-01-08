@@ -19,93 +19,69 @@
 <body>
 
     <header>
-
-
-        <nav>
-
-            <div class="conteiner">
-
-
-                <a href="index.html">
-                    <img class="logo_skynet" src="./img/skynet-logo.png">
-                </a>
-
-                <div class="divbusca">
-
-                    <i class="uil uil-search"></i>
-                    <input class="barra_pesquisa" type="search" id="txtbusca" placeholder="Buscar...">
-
-                </div>
-
-                <div class="icones_header">
-
-                    <img class="icon_bag" src="./img/bag.png">
-
-                    <a href="./login.html">
-                        <img class="icon_user" src="./img/user.png">
-                    </a>
-
-                </div>
-
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+          <div class="container">
+            
+            <a href="index.html" class="navbar-brand">
+              <img src="./img/Logo Skynet.png" width="142px">
+            </a>
+  
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse text-white" id="nav-principal">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                  </form>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="quemsomos.html" class="nav-link">Quem somos?</a>
+                </li>
+                <li class="nav-item">
+                  <a href="blackfriday.html" class="nav-link">Black Friday</a>
+                </li>
+                <li class="nav-item">
+                  <a href="loja.html" class="nav-link">Like Basket</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="btn btn-outline-light ml-5">LOGIN</a>
+                </li>
+              </ul>
+             
             </div>
-
-
-            <div id="navbar">
-                <ul>
-                    <li>
-                        <a href="Quem somos?">Quem somos?</a>
-                    </li>
-                    <li>
-                        <a href="blackfriday.html">BLACK-FRIDAY</a>
-                    </li>
-                    <li>
-                        <a href="NIKE BASKET">NIKE BASKET</a>
-                    </li>
-                    <li>
-                        <a href="loja.html">LOJA</a>
-                    </li>
-                </ul>
-
-            </div>
-
+  
+          </div>
         </nav>
-
-
-
-    </header>
+      </header>
 
     <!-- ############# A MAIN AQUI PRA NÃO PERDER ###################### -->
     <main>
 
         <div class="container container-fluid">
             
-            <div class="row mg-0">
+            <div class="row">
 
-                <div class="col justify-content-center bg-primary">
-                    coluna filtro
+                <div class="col-4 justify-content-center bg-primary col-filtro">
+                    Filtro
                 </div>
-    
-                <div class="row">
-                   
-                    <div class="col justify-content-center div-coluna-produto bg-info">
-                        produto
-                    </div>
-                   
-                    <div class="col justify-content-center div-coluna-produto bg-info">
-                        produto
-                    </div>
 
-                    <div class="w-100"></div>
+                <div class="col div-col-produto">
 
-                    <div class="col justify-content-center div-coluna-produto bg-info">
-                        produto
+                    <div class="row h-100">
+
+                        <div class="col bg-info div-produto-contido">
+
+                            <div class="layout-produto">
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="col bg-info div-produto-contido">produto</div>
+
                     </div>
-                   
-                    <div class="col justify-content-center div-coluna-produto bg-info">
-                        produto
-                    </div>
-
-
 
                 </div>
 
