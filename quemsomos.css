@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body {
+    background-color: #474747;
+}
+header {
+    display: flex;
+    align-items: center;    
+}
+
+.logo_header {
+    height: 14vh;
+}
+
+
+.conteiner {
+    display: flex;
+    height: 10vh;
+    background-color: #FDC901;
+    align-items: center;
+    justify-content: space-around;
+    width: 100svw;
+}
+
+.barra_pesquisa {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    width: 50vh;
+    height: 5vh;
+    padding: 5px;
+    outline: 0;
+}
+
+.logo_skynet {
+    height: 50px;
+}
+
+.icon_bag, .icon_user {
+    height: 30px;   
+}
+
+
+.icones_header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.banner_topo {
+    width: 100vw;
+    height: auto;
+
+}
+
+.banner_img {
+    height: 40vh;
+    position: absolute;
+    top: 20vh;
+    right: 8vw;
+}
+
+.container_texto_principal {
+    height: 40vh;
+    width: 100vw;
+    background-color: #FDC901;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 8vh;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 40vh;
+    left: 7vw;
+    
+}
+
+
+h2 {
+    color: white;
+    font-size: 28pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+li {
+    color: #FFCC00;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding: 4vh;
+    
+
+
+}
+
+nav {
+    list-style: none;
+    
+}
+
+
+
+.texto_principal {
+    color: white;
+    font-family: initial;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 16pt;
+    padding: 10vw;
+    
+}
+
+.medium {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_image_medium {
+    margin-top: 5vh;
+
+}
+
+.ads{
+
+    height: 40vh;
+    width: 100vw;
+    background-color: #FDC901;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ads_imgs {
+    margin-right: 25vw;
+}
+
+.ads_texto {
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding: 15vw;
+}
+
+.img01 {
+    position: absolute;
+    right: 18vw;
+    top: 175vh;
+}
+
+    
