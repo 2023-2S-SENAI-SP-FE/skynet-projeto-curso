@@ -528,12 +528,9 @@ padding: 3rem 3.5rem;
     border: #575757 1px solid;
 }
 
-.div-coluna-filtro {
-    height: 350px;
-}
-
 .div-coluna-produto {
     border: #575757 1px solid;
+    height: 250px;
 }
 
 .padding-0 {
