@@ -409,7 +409,11 @@ footer {
     /* Adiciona sombra preta ao ícone dos botões de navegação */
 }
 
-legenda-carousel {
+.legenda-carousel {
     color: black;
     text-decoration: none;
+}
+
+bg-black {
+background-color: black;
 }
