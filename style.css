@@ -549,8 +549,6 @@ padding: 3rem 3.5rem;
     margin: 0px 5px 5px 5px;
 }
 
-.div-layout-produto {
-
+.botao-add-carrinho {
+    white-space: wrap !important;
 }
-
-
