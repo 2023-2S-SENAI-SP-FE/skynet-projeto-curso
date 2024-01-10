@@ -4,49 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>SkyNet New E-commerce</title>
+    
 </head>
 
 <body>
 
-    <header>
-
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="Quem somos?">Quem somos?</a>
+     <!-- inicio header -->
+     <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+          <div class="container">
+            
+            <a href="index.html" class="navbar-brand">
+              <img src="./img/Logo Skynet.png" width="142px">
+            </a>
+  
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse text-white" id="nav-principal">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+                  </form>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="quemsomos.html" class="nav-link">Quem somos?</a>
                 </li>
-                <li>
-                    <a href="index.html">HOME</a>
+                <li class="nav-item">
+                  <a href="blackfriday.html" class="nav-link">Black Friday</a>
                 </li>
-                <li>
-                    <a href="blackfriday.html">BLACK-FRIDAY</a>
+                <li class="nav-item">
+                  <a href="loja.html" class="nav-link">Like Basket</a>
                 </li>
-                <li>
-                    <a href="NIKE BASKET">NIKE BASKET</a>
+                <li class="nav-item">
+                  <a href="" class="btn btn-outline-light ml-5">LOGIN</a>
                 </li>
-                <li>
-                    <a href="loja.html">VESTUÁRIO TIMES</a>
-                </li>
-            </ul>
+              </ul>
+             
+            </div>
+  
+          </div>
         </nav>
+      </header>
+      <!-- fim header -->
+  
+    <!-- início home -->
+    <section id="home">  
+        <div class="container">
+         <div class="row">
+            <script>
 
-        
-
-    </header>
-
-    <article id="loja">
-        <img  src="./img/" alt="">
-        <p id="categorias"></p><br>
-    </article>
-    
-    <footer>
-        
-    </footer>
-
-</body>
-
-</html>
+                // Carrega os produtos do arquivo JSON
+                function carregarProdutos() {
+                  $.getJSON("loja.json", function(produtos) {
+                    // Percorre os produtos
+                    for (const produto of produtos) {
+                      // Cria um elemento `card`
+                      const card = $(`<div class="card"></div>`);
+      
+                      // Adiciona a imagem
+                      const imagem = $(`<img class="card-img-top" src="${produto.imagem}" alt="${produto.nome}"></img>`);
+                      card.append(imagem);
+      
+                      // Adiciona o título
+                      const titulo = $(`<h5 class="card-title">${produto.nome}</h5>`);
+                      card.append(titulo);
+      
+                      // Adiciona a descrição
+                      const descricao = $(`<p class="card-text">${produto.descricao}</p>`);
+                      card.append(descricao);
+      
+                      // Adiciona o preço
+                      const preco = $(`<p class="card-text">R$ ${produto.preco}</p>`);
+                      card.append(preco);
+      
+                      // Adiciona o botão de compra
+                      const botaoComprar = $(`<a href="#" class="btn btn-primary">Comprar</a>`);
+                      card.append(botaoComprar);
+      
+                      // Adiciona o `card` à página
+                      $(".row").append(card);
+                    }
+                  });
+                }
+      
+                // Chama a função de carregamento dos produtos
+                carregarProdutos();
+      
+              </script>
+        </div>
+       </section>
+       <!-- fim home -->
+   
+   
+   <!-- início footer - -->
+   <section class="caixa">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-4">
+           conteúdo 1
+         </div>
+         <div class="col-md-4">
+           conteúdo 2
+         </div>
+         <div class="col-md-4">
+           conteúdo 3
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- fim footer  -->
+   
+   
+   
+   
+       <!-- JavaScript (Opcional) -->
+       <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     </body>
+     </html>

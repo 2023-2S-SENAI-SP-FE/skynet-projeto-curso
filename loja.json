@@ -1,5 +1,19 @@
 [
     {
+        "nome": "Produto 1",
+        "descricao": "Nike Renew Ride",
+        "preco": 327.40,
+        "imagem": "./img/imagem1.png"
+    },
+
+    {
+        "nome": "Produto 2",
+        "descricao": "Adidas Durano",
+        "preco": 530.90,
+        "imagem": "./img/imagem2.png"
+    }
+][
+    {
         "id": 1,
         "imagem": "./img/imagem1.png",
         "tipo": "tenis",
