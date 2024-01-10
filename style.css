@@ -552,3 +552,9 @@ padding: 3rem 3.5rem;
 .botao-add-carrinho {
     white-space: wrap !important;
 }
+
+.max-height {
+    height: 100dvh;
+}
+
+
