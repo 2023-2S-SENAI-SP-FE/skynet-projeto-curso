@@ -541,45 +541,39 @@ padding: 3rem 3.5rem;
     margin-left: -3;
 }
 
-.col-filtro {
-    border-radius: 15px;
-    margin: 5px;
-}
-
-.div-col-produto {
-    border-radius: 15px;
-    border: #575757 1px solid;
-    height: 300px;
-    margin: 5px;
-}
-
-.div-produtos {
-    border-radius: 15px;
-    height: 250px;
-}
-
-.div-produto-contido {
-    border-radius: 15px;
-    margin: 0px 5px 5px 5px;
-}
-
-.bi {
-    
-
-}
-
 .botao-add-carrinho {
     white-space: wrap !important;
 }
 
-.max-height {
-    height: 100dvh;
-}
-
 .card:hover {
     -webkit-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
--moz-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
-transition: 0.5s;
+    -moz-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+    transition: 0.5s;
 }
 
+.ancora-card {
+    text-decoration: none !important;
+}
+
+input.barra-pesquisa::placeholder {
+    padding: 10px;
+}
+
+button.page-link {
+    color: #17a2b8;
+    outline: none;
+    border: 1px solid #17a2b8;
+}
+
+select.form-select.form-select-sm {
+    color: #17a2b8;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid #17a2b8; 
+}
+
+select.form-select.form-select-sm:hover {
+    color: #474747;
+    transition: 0.5s;
+}
