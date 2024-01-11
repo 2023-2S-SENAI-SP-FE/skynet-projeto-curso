@@ -521,6 +521,14 @@ padding: 3rem 3.5rem;
 
 }
 
+/* #################################### NAVBAR BOOTSTRAP ################################## */
+
+a.btn.btn-outline-light.ml-5 {
+    transition: 0.5s;
+}
+
+
+
 
 /* ################################# LOJA #################################### */
 .container {
@@ -577,3 +585,4 @@ select.form-select.form-select-sm:hover {
     color: #474747;
     transition: 0.5s;
 }
+
