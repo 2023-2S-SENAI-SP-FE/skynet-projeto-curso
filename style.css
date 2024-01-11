@@ -527,6 +527,20 @@ padding: 3rem 3.5rem;
     flex-basis: 100%;
 }
 
+.barra-pesquisa {
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid #17a2b8;
+    margin-right: -35px;
+}
+
+.btn0 {
+    outline: none;
+    border: none;
+    border-radius: 40px !important;
+    margin-left: -3;
+}
+
 .col-filtro {
     border-radius: 15px;
     margin: 5px;
@@ -557,4 +571,10 @@ padding: 3rem 3.5rem;
     height: 100dvh;
 }
 
+.card:hover {
+    -webkit-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+transition: 0.5s;
+}
 
