@@ -586,3 +586,7 @@ select.form-select.form-select-sm:hover {
     transition: 0.5s;
 }
 
+.btn-login-navbar {
+    margin-left: 10rem;
+}
+
