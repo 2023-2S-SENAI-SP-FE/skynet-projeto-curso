@@ -592,7 +592,7 @@ select.form-select.form-select-sm:hover {
 
 /* ################################# PRODUTO #################################### */
 
-.barra-cep {
+/* .barra-cep {
     border-radius: 40px;
     outline: none;
     border: 2px solid #ff9900;
@@ -618,7 +618,25 @@ div.card-text.d-flex.card-frete {
     margin-top: 6rem;
 }
 
-div.col-3.col-frete {
-    border-left: 1px solid #4747471e;
-}
 
+
+ .margem-produto-aberto {
+    margin-left: 1rem;
+ } */
+
+ strong.preco-12x{
+    font-size: 36px;
+    color:#17a2b8;
+    span{
+        font-size: 15px;
+        color: #000000;
+    }
+ }
+
+ article.produto-preco {
+    div.estrelas{
+        svg{
+            fill: #17a2b8;
+        }
+    }
+ }
