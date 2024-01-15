@@ -670,6 +670,15 @@ select.form-select.form-select-sm:hover {
     color: #f5f5f5;
 }
 
+.btn-cep:hover {
+    background-color: #ffab2d;
+    transition: 0.5s;
+}
+
+.btn-cep:active {
+    background-color: #ffbd5b;
+}
+
 input.barra-cep::placeholder {
     padding: 10px;
 }
