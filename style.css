@@ -1,3 +1,55 @@
+body {
+    margin: 20px 50px;
+    background-color: #fff;
+}
+
+#navbar {
+    position: relative;
+    height: 150px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    color: #434138;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    display: inline-block;
+}
+
+#navbar ul li a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    color: #eb8901;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-carousel {
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+Estilização da loja.html
+*/
+
+#loja {
+    color: antiquewhite;
+}
 /* Navbar */
 
 * {
@@ -6,13 +58,13 @@
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
-    }
+}
 
-    header {
-        display: flex;
-        align-items: center;    
-    }
-    
+header {
+    display: flex;
+    align-items: center;
+}
+
 
     .conteiner {
         display: flex;
@@ -47,90 +99,92 @@
         height: 30px;   
     }
 
-    
-    .icones_header {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        
-    }
 
-    /* #navbar {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 100svw;
-        margin-left: auto;
-        margin-right: auto;
-    } */
-    
-    /* #navbar ul li {
-        display: inline;
-    }
-    
-    #navbar ul li a {
-        color: #434138;
-        font: 1.2em sans-serif;
-        font-weight: bold;
-        padding: 30px;
-        display: inline-block;
-    } */
-    
-    /* #navbar ul li a:link, a:visited, a:active {
-        text-decoration: none;
-    }
-    
-    #navbar ul li a:hover {
-        text-decoration: none;
-        color: #eb8901;
-    } */
-    
-    #carousel {
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #img-carousel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+.icones_header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
 
-    /* Estilização da loja.html */
-    
-    #loja {
-        color: antiquewhite;
-    }
+}
 
-    body {
-        background-color: #fff;
-    }
+#navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100svw;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .frente {
-        display: flex;
-        width: auto;
-        height: auto;
-    }
+#navbar ul li {
+    display: inline;
+}
 
-    .frente img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-        max-height: 100%;  
-    }
+#navbar ul li a {
+    color: #434138;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    display: inline-block;
+}
 
+#navbar ul li a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    color: #eb8901;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carousel-inner {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Estilização da loja.html */
+
+#loja {
+    color: antiquewhite;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+.frente {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.frente img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 
 /* Footer  */
 
-.container-ccc{
+.container-ccc {
     height: 100px;
     background-color: #c6a216;
     border-bottom: 2px solid #474747;
- 
+
 }
 
 .contido-img-ccc {
@@ -143,7 +197,7 @@
     margin: 5px;
     height: 75px;
     color: #d12121;
-   
+
 }
 
 .contido-img-caminhão {
@@ -156,7 +210,7 @@
 
 .contido-img-escudo {
     margin-left: 20px;
-    
+
 }
 
 .contido-img-facebook {
@@ -166,12 +220,12 @@
 .contido-text-escudo {
     margin-top: 0px;
     margin-left: 10px;
-    
+
 
 }
 
 .contido-text-caminhão {
-    
+
     margin: 5px;
     width: 75px;
 }
@@ -198,16 +252,16 @@
 
 }
 
-.container-redes{
+.container-redes {
     height: 100px;
     border-bottom: 2px solid #474747;
     background-color: #c6a216;
 }
 
 
-.container-logo-footer{
+.container-logo-footer {
     height: 150px;
-    
+
     border-bottom: 2px solid #474747;
     background-color: #c6a216;
 }
@@ -215,7 +269,7 @@
 
 
 .display-flex {
-display: flex;
+    display: flex;
 }
 
 .justify-content-center {
@@ -231,13 +285,13 @@ display: flex;
     align-items: center;
 }
 
-.flex-direction-column{
+.flex-direction-column {
     flex-direction: column;
     flex: space-around;
 }
 
-.align-content{
-align-content: center;
+.align-content {
+    align-content: center;
 }
 
 .flex-direction {
@@ -249,18 +303,19 @@ align-content: center;
 
 :root {
     --color-neutral-0: #474747;
-    --color-neutral-10: #c6a216 ;
+    --color-neutral-10: #c6a216;
     --color-neutral-30: #000000;
     --color-neutral-40: #f5f5f5;
 }
 
 * {
-font-family: 'inter', sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-letter-spacing: 1px;
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
 }
+
 
 footer {
     width: 100%;
@@ -273,10 +328,10 @@ footer {
 
 
 #footer_content {
-background-color: var(--color-neutral-10);
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-padding: 3rem 3.5rem;
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
 }
 
 #footer_contacts h1 {
@@ -348,7 +403,7 @@ padding: 3rem 3.5rem;
 }
 
 #input_group button {
-    background-color: #eedf0c ;
+    background-color: #eedf0c;
     border: none;
     color: var(--color-neutral-40);
     padding: 1.25rem;
@@ -378,37 +433,37 @@ padding: 3rem 3.5rem;
     }
 }
 
+/* Carrousel */
 
-
-/* ################################# TELA LOGIN #################################### */
-
-.conteiner-login {
+#section1 {
+    background-color: grey;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100svh;
-    width: 100svw;
+    justify-content: center
 }
 
-.contido-login {
-    display: flex;
-    height: 550px;
-    width: 300px;
-    background-color: #FDC901;
-    border-radius: 10px;
-    
+/* .carousel {
+    width: 93.9%;
+    height: 100%
+} */
+
+.carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.alinhamento-label-login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100svw;
-    
-
+.contorno-carousel {
+    text-shadow: 1px 1px 1px black;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    /* Define a cor de fundo para a cor da sombra */
+    box-shadow: 2px 2px 4px black;
+    /* Adiciona sombra preta ao ícone dos botões de navegação */
 .botao-login {
     display: flex;
     justify-content: center;
@@ -442,6 +497,13 @@ padding: 3rem 3.5rem;
     border: none;
 }
 
+.legenda-carousel {
+    color: black;
+    text-decoration: none;
+}
+
+bg-black {
+background-color: black;
 .voltarIndex {
     display: flex;
     flex-direction: column;

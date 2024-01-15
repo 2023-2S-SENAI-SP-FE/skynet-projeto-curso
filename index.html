@@ -4,237 +4,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     
+
+        <!-- Link do bootstrap 5.3 -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Fim do bootstrap -->
+
     <title>SkyNet New E-commerce</title>
     
 </head>
 
 <body>
 
-    <header>
-       
-
-        <nav>
-
-            <div class="conteiner">
-
-                
-                <a href="index.html">
-                    <img class="logo_skynet" src="./img/skynet-logo.png">
-                </a> 
+     <!-- inicio header -->
+     <header>
         
-                <div class="divbusca">
-        
-                    <i class="uil uil-search"></i>
-                    <input class="barra_pesquisa" type="search" id="txtbusca" placeholder="Buscar...">
-                    
-                </div>
-        
-                <div class="icones_header">
-        
-                    <img class="icon_bag" src="./img/bag.png">
-
-                    <a href="./login.html">
-                        <img class="icon_user" src="./img/user.png">
-                    </a>
-        
-                </div>
-
-            </div>
-
-
-            <div id="navbar">
-                <ul>
-                    <li>
-                        <a href="Quem somos?">Quem somos?</a>
-                    </li>
-                    <li>
-                        <a href="blackfriday.html">BLACK-FRIDAY</a>
-                    </li>
-                    <li>
-                        <a href="NIKE BASKET">NIKE BASKET</a>
-                    </li>
-                    <li>
-                        <a href="loja.html">LOJA</a>
-                    </li>
-                    
-
-                    <!-- link temporário para a página do produto -->
-                    <li>
-                        <a href="produto.html">PRODUTO</a>
-                    </li>
-                    <li>
-                        <a href="copia_produto.html">COPIA_PRODUTO</a>
-                    </li>
-                </ul>
-
-            </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+          
+            <div class="container container-fluid d-flex">
             
+                <a href="index.html" class="navbar-brand">
+                  <img src="./img/logo_projeto-removebg.png" width="142px">
+                </a>
+      
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <div class="collapse navbar-collapse text-white justify-content-center" id="nav-principal">
+                    
+                    <ul class="navbar-nav">
+                                            
+                      <li class="nav-item pl-5">
+                        <a href="loja.html" class="nav-link"><h5>LOJA</h5></a>
+                      </li>
+                      <li class="nav-item pl-5">
+                          <a href="produto.html" class="nav-link"><h5>NIKE</h5></a>
+                        </li>
+                        <li class="nav-item pl-5">
+                          <a href="loja.html" class="nav-link"><h5>VESTUÁRIO</h5></a>
+                        </li>
+                        <li class="nav-item pl-5">
+                            <a href="calcado.html" class="nav-link"><h5>CALÇADOS</h5></a>
+                        </li>
+                      <li class="nav-item pl-5">
+                        <a href="" class="btn btn-outline-light btn-login-navbar">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                            </svg>
+                        </a>
+                      </li>
+                      
+                    </ul>
+            </div>
         </nav>
         
-        
+    
+
+    <!-- ############# A MAIN AQUI PRA NÃO PERDER ###################### -->
+    <main class="p-4 0 4 0">
+
+        <div class="container">
+
+            
+
+            <div class="row">
+
+                <div class="col-12 col-md-5">
+                    <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+                        <div class="input-group input-group-sm">
+                            <input class="barra-pesquisa" type="text" form="form-control" placeholder="Buscar">
+                            <button class="btn btn-info rounded-left btn0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                  </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 
     </header>
+      <!-- fim header -->
 
-    <main>
-        <section id="section1">
-            
-            <div id="carousel">
-                <img name="rolar" width="200" height="200" id="img-carousel">
-            </div>
-    
-        </section>
+      <!-- carrousel via bootstrap -->
+      <section id="carousel">
 
-        <section>
-            <div class="frente">
-                <img src="./img/frente1.png" alt="">
-            </div>
-                
-            
-            <div class="frente">
-                <img src="./img/frente2.png" alt="">
-            </div>
-                
-            
-        </section>
-           
-    </main>
-    
-    <footer>
-        
-        <div class = "container-ccc display-flex aling-items justify-content-center flex-direction">
-            <div class="contido-img-caminhão">
-                <img height="50" src="./img/truck-fast-solid.svg" alt="Caminhão de frete"> 
-            </div>
-            <div class="contido-text-caminhão">
-                Frete grátis confira as regras  
-            </div>
-            <div class="contido-img-ccc">
-                <img height="50" src="./img/box-solid.svg" alt="Retirada em loja"> 
-            </div>
-            <div class="contido-text-caixa">
-               Retirada em loja 
-            </div>
-            <div class="contido-img-ccc">
-                <img height="50" src="./img/credit-card-solid.svg" alt="Em até 10x sem juros no cartão">
-            </div>
-            <div class="contido-text-cartão">
-                Em até 10x sem juros no cartão
-             </div>
-            
-
-</div>
-
-        <div class="container-redes display-flex align-items justify-content-center flex-direction">
-            <div class="contido-img-escudo">
-                <img height="65" src="./img/shield-halved-solid.svg" alt="Site seguro">
-            </div>
-            <div class="contido-text-escudo">
-                Site 100% seguro
-            </div>
-            <div class="contido-img-facebook">
-                <img height="32" src="./img/facebook-f.svg" alt="facebook skynet">
-            </div>
-            <div class="contido-text-bold">
-                @skynet.store
-            </div>
-            <div class="contido-img-escudo">
-                <img height="35" src="./img/instagram.svg" alt="">
-            </div>
-            <div class="contido-text-bold">
-                @skynet.store
-            </div>
-            <div class="contido-img-escudo">
-                <img height="35" src="./img/x-twitter.svg" alt="">
-            </div>
-            <div class="contido-text-bold">
-                @skynet.store
+        <!-- slider/indicadores do carrousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button class="" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button class="" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
 
-        </div>
-      
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <h1>Skynet</h1>
-                <p>Forma de pagamento</p>
-                
-        <div id="footer_social_media">
-            <a href="#" class="footer-link" id="mastercard">
-                <i class="fa-brands fa-cc-mastercard"></i>
-            </a>
+            <!-- imagens do carrsousel -->
+            <div class="carousel-inner carousel">
 
-            <a href="#" class="footer-link" id="visa">
-                <i class="fa-brands fa-cc-visa"></i>
-            </a>
-            
-            <a href="#" class="footer-link" id="pix">
-                <i class="fa-brands fa-pix"></i>
-            </a>
-            
-            <a href="#" class="footer-link" id="boleto">
-                <i class="fa-solid fa-barcode"></i>
-            </a>
-            
-        </div>
-    </div>
+                <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <!-- imagem do carrousel -->
+                    <img src="img/imagens-carousel/3263_full.gif" class="d-block w-100" alt="..." usemap="#carousel-image1">
+                    <!-- map area para a imagem ser clicável -->
+                    <map name="#carousel-image1">
+                        <!-- abre uma nova guia com o link informado -->
+                        <area target="_blank" alt="Site do google" title="Site do google" href="https://www.google.com" coords="" shape="default">
+                    </map>
+                    <!-- legenda da imagem -->
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">Tenis Nike X</h5>
+                        <p class="text-black">R$: 100,00</p>
+                    </div> -->
+                </div>
 
-    <ul class="footer-list">
-        <li>
-            <h3>Fale conosco</h3>
-        </li>
-        <li>
-            <a href="#" class="footer-link">(11) 9-9999-9999</a>
-        </li>
-        <li>
-            <a href="#" class="footer-link">Skynet.store@gmail.com</a>
-        </li>
-        <li>
-            <a href="#" class="footer-link">Suporte</a>
-        </li>
-    </ul>
-    
-    <ul class="footer-list">
-        <li>
-            <h3>Produtos</h3>
-        </li>
-        <li>
-            <a href="#" class="footer-link">Futebol</a>
-        </li>
-        <li>
-            <a href="#" class="footer-link">Basquete</a>
-        </li>
-        <li>
-            <a href="#" class="footer-link">Vôlei</a>
-        </li>
-    </ul>
-    
-    <div id="footer_subscribe">
-        <h3>Inscreva-se</h3>
-        
-        <p>
-            Digite seu e-mail para ser notificado sobre nossas ofertas e novos produtos
-            
-        </p>
-        
-        <div id="input_group">
-            <input type="email" id="email">
-            <button>
-                <i class="fa-regular fa-envelope"></i>
+                <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                <div class="carousel-item" data-bs-interval="6000">
+                    <!-- imagem do carrousel -->
+                    <img src="img/imagens-carousel/48h-nike.webp" class="d-block w-100" alt="..." usemap="#carousel-image2">
+                    <!-- map area para a imagem ser clicável -->
+                    <map name="#carousel-image2">
+                        <area target="_blank" alt="..." title="..." href="./blackfriday.html" coords="" shape="default">
+                    </map>
+                    <!-- legenda da imagem -->
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">Tenis Nike X</h5>
+                        <p class="text-black">R$: 100,00</p>
+                    </div> -->
+                </div>
+
+                <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
+                <div class="carousel-item" data-bs-interval="6000">
+                    <!-- imagem do carrousel -->
+                    <img src="img/imagens-carousel/8440_full_verao.webp" class="d-block w-100" alt="..." usemap="#carousel-image3">
+                    <!-- map area para a imagem ser clicável -->
+                    <map name="#carousel-image3">
+                        <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                    </map>
+                    <!-- legenda da imagem -->
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-black">Tenis Nike X</h5>
+                        <p class="text-black">R$: 100,00</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- botão de próximo e anterior do carrousel -->
+            <button class="carousel-control-prev btn" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
-    </div>
 
-    <div class = "container-logo-footer display-flex align-items justify-content-center">
-        <img height="100" src="./img/Logo Skynet.png" alt="Logo da Skynet">
-    </div>
-    
+        
+    </section>
+      
+      <!-- fim carousel -->
+  
+    <!-- início home -->
+    <section id="home">  
+        <div>
+         <div>
+           <!-- imagem da seção 1 -->
+            <div>
+             <img src="./img/frente1.png" class="img-fluid" width="100%">
+           </div>
+           <!-- fim da imagem da seção 1 -->
+           <!-- imagem da seção 2 -->
+           <div>
+             <img src="./img/frente2.png" class="img-fluid" width="100%">
+           </div>
+           <!-- fim imagem da seção 2 -->
+   
+         </div>
+        </div>
+       </section>
+       <!-- fim home -->
+   
+   
+   <!-- início footer - -->
+   <section>
+    <footer class="bg-warning p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-truck">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-truck rounded" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                            <p class="p-0 m-0">Frete grátis</p>
+                            <p>confira as regras</p>
+                        </svg>
+                     </i>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-shop">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop rounded" viewBox="0 0 16 16">
+                            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
+                          </svg>
+                          <p>Retirada na loja</p>
+                    </i>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-credit-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card rounded" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                        </svg>
+                        <p class="p-0 m-0">Em até 10x sem</p>
+                        <p>juros no cartão</p>
+                    </i>
+                </div>
+            </div>
+        </div>
+
+        
+        
     </footer>
-    
+   </section>
+   <!-- fim footer  -->
+   
+   
+   
+   
+       <!-- JavaScript (Opcional) -->
+       <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     </body>
+     </html>
 
-</body>
-</html>
+
