@@ -1,12 +1,5 @@
 {
-    "dependencies": {
-        "bootstrap": "^5.3.2",
-        "bootstrap-icons": "^1.11.3",
-        "icons": "^1.0.0",
-        "json-server": "^0.17.4"
-    },
-    "scripts": {
-        "start": "json-server --watch data/database.json --port 3000",
-        "test": ""
-    }
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
 }

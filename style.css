@@ -66,33 +66,38 @@ header {
 }
 
 
-.conteiner {
-    display: flex;
-    height: 10vh;
-    background-color: #FDC901;
-    align-items: center;
-    justify-content: space-around;
-    width: 100svw;
-}
+    .conteiner {
+        display: flex;
+        height: 10vh;
+        background-color: #FDC901;
+        align-items: center;
+        justify-content: space-around;
+        width: 100svw;
+    }
 
-.barra_pesquisa {
-    background-color: #D9D9D9;
-    border: none;
-    border-radius: 20px;
-    width: 500px;
-    height: 50px;
-    padding: 5px;
-    outline: 0;
-}
+    .navbar-margin-bottom {
+        margin-bottom: 5px;;
+    }
+    
+    .barra_pesquisa {
+        background-color: #D9D9D9;
+        border: none;
+        border-radius: 20px;
+        width: 500px;
+        height: 50px;
+        padding: 5px;
+        outline: 0;
+    }
 
-.logo_skynet {
-    height: 50px;
-}
-
-.icon_bag,
-.icon_user {
-    height: 30px;
-}
+    
+    
+    .logo_skynet {
+        height: 50px;
+    }
+    
+    .icon_bag, .icon_user {
+        height: 30px;   
+    }
 
 
 .icones_header {
@@ -459,6 +464,37 @@ footer {
     /* Define a cor de fundo para a cor da sombra */
     box-shadow: 2px 2px 4px black;
     /* Adiciona sombra preta ao ícone dos botões de navegação */
+.botao-login {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #fd9c01;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+.botao-login:hover {
+    background-color: #994D1C; 
+}
+
+.logo-login {
+    margin-bottom: 25px;
+}
+
+.controle-label {
+    margin-bottom: 25px;
+}
+
+.input {
+    padding: 15px;
+    outline: none;
+    border: none;
 }
 
 .legenda-carousel {
@@ -468,4 +504,201 @@ footer {
 
 bg-black {
 background-color: black;
+.voltarIndex {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 25px;
+    height: 10vh;
+    
 }
+
+.ancoraLink {
+    color: #474747;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.link-senha-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.ancoraLink:hover {
+    transition: 0.4s;
+    color: #fff;
+}
+
+
+/* ################################# TELA CADASTRO #################################### */
+
+.conteiner-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    width: 100svw;
+}
+
+.contido-cadastro {
+    display: flex;
+    height: 600px;
+    width: 300px;
+    background-color: #FDC901;
+    border-radius: 10px;
+    
+}
+
+.alinhamento-label-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100svw;
+    
+}
+
+.voltar-home-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.link-home-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-cadastro {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.controle-cadastro {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* #################################### NAVBAR BOOTSTRAP ################################## */
+
+a.btn.btn-outline-light.ml-5 {
+    transition: 0.5s;
+}
+
+
+/* ################################# LOJA #################################### */
+.container {
+    flex-basis: 100%;
+}
+
+.barra-pesquisa {
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid #17a2b8;
+    margin-right: -35px;
+}
+
+.btn0 {
+    outline: none;
+    border: none;
+    border-radius: 40px !important;
+    margin-left: -3;
+}
+
+.botao-add-carrinho {
+    white-space: wrap !important;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.26);
+    transition: 0.5s;
+}
+
+.ancora-card {
+    text-decoration: none !important;
+}
+
+input.barra-pesquisa::placeholder {
+    padding: 10px;
+}
+
+button.page-link {
+    color: #17a2b8;
+    outline: none;
+    border: 1px solid #17a2b8;
+}
+
+select.form-select.form-select-sm {
+    color: #17a2b8;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid #17a2b8; 
+}
+
+select.form-select.form-select-sm:hover {
+    color: #474747;
+    transition: 0.5s;
+}
+
+.btn-login-navbar {
+    margin-left: 10rem;
+}
+
+
+/* ################################# PRODUTO #################################### */
+
+/* .barra-cep {
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid #ff9900;
+    margin-right: -35px;
+}
+
+.btn-cep {
+    outline: none;
+    border: none;
+    border-radius: 40px !important;
+    margin-left: -3;
+    background-color: #ff9900;
+    color: #f5f5f5;
+}
+
+input.barra-cep::placeholder {
+    padding: 10px;
+}
+
+div.card-text.d-flex.card-frete {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 6rem;
+}
+
+
+
+ .margem-produto-aberto {
+    margin-left: 1rem;
+ } */
+
+ strong.preco-12x{
+    font-size: 36px;
+    color:#17a2b8;
+    span{
+        font-size: 15px;
+        color: #000000;
+    }
+ }
+
+ article.produto-preco {
+    div.estrelas{
+        svg{
+            fill: #17a2b8;
+        }
+    }
+ }
