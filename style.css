@@ -647,8 +647,8 @@ select.form-select.form-select-sm:hover {
     transition: 0.5s;
 }
 
-.btn-login-navbar {
-    margin-left: 10rem;
+li.nav-item.botao-login-navbar {
+    margin-left: 3rem;
 }
 
 
@@ -705,4 +705,4 @@ div.card-text.d-flex.card-frete {
             fill: #17a2b8;
         }
     }
- }
+}
