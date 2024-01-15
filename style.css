@@ -654,7 +654,7 @@ select.form-select.form-select-sm:hover {
 
 /* ################################# PRODUTO #################################### */
 
-/* .barra-cep {
+.barra-cep {
     border-radius: 40px;
     outline: none;
     border: 2px solid #ff9900;
@@ -680,11 +680,6 @@ div.card-text.d-flex.card-frete {
     margin-top: 6rem;
 }
 
-
-
- .margem-produto-aberto {
-    margin-left: 1rem;
- } */
 
  strong.preco-12x{
     font-size: 36px;
