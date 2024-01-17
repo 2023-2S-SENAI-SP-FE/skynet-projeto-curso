@@ -136,7 +136,7 @@
 							</a>
 						</li>
 						<li class="nav-item pl-5">
-							<a href="loja.html" class="nav-link">
+							<a href="calcados.html" class="nav-link">
 								<h5>CALÇADOS</h5>
 							</a>
 						</li>
@@ -188,14 +188,22 @@
 							<input type="password" name="" class="form-control input_pass" value="" placeholder="senha">
 						</div>
 						<div class="d-flex justify-content-center mt-3 login_container">
-							<button type="submit" name="button" class="btn login_btn">Cadastrar</button>
+							<button id="enviarCodigo" type="submit" name="button" class="btn login_btn">Cadastrar</button>
 						</div>
+
+						<script> 
+							document.getElementById('enviarCodigo').addEventListener("click", () => {
+								alert('Conta cadastrada com sucesso!');
+							});
+						
+						</script>
+
 					</form>
 				</div>
 
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
-						Já possui conta? <a href="./cadastro-usuario.html" class="ml-2">Login</a>
+						Já possui conta? <a href="./login.html" class="ml-2">Login</a>
 					</div>
 					<div class="d-flex justify-content-center links">
 						<a href="./esqueci-senha.html">Esqueci a senha</a>

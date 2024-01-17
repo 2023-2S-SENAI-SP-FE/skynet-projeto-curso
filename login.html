@@ -155,7 +155,7 @@
 							</a>
 						</li>
 						<li class="nav-item pl-5">
-							<a href="loja.html" class="nav-link">
+							<a href="calcados.html" class="nav-link">
 								<h5>CALÇADOS</h5>
 							</a>
 						</li>
@@ -175,7 +175,6 @@
 
 	</header>
 
-
     <!-- login -->
 
 	<div class="container h-100 fundo">
@@ -193,7 +192,7 @@
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="email" name="" class="form-control input_user" value="" placeholder="email">
+							<input type="email" name="" class="form-control input_user" value="" placeholder="e-mail">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
@@ -208,8 +207,15 @@
 							</div>
 						</div>
 						<div class="d-flex justify-content-center mt-3 login_container">
-							<button type="submit" name="button" class="btn login_btn">Login</button>
+							<button id="enviarCodigo" type="submit" name="button" class="btn login_btn">Login</button>
 						</div>
+
+                        <script> 
+							document.getElementById('enviarCodigo').addEventListener("click", () => {
+								alert('Usuário logado com sucesso!');
+							});
+						
+						</script>
 					</form>
 				</div>
 
@@ -228,7 +234,6 @@
 		</div>
 	</div>
 
-    </section>
     <!-- início footer - -->
     <section>
         <footer class="bg-warning p-4">
