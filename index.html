@@ -90,7 +90,7 @@
       <section id="carousel">
     
         <!-- slider/indicadores do carrousel -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -106,11 +106,11 @@
                 <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
                 <div class="carousel-item active" data-bs-interval="6000">
                     <!-- imagem do carrousel -->
-                    <img src="img/imagens-carousel/3263_full.gif" class="d-block w-100" alt="..." usemap="#carousel-image1">
+                    <img src="img/imagens-carousel/3263_full.gif" class="d-block w-100" alt="promoção de verão" usemap="#carousel-image1">
                     <!-- map area para a imagem ser clicável -->
                     <map name="#carousel-image1">
                         <!-- abre uma nova guia com o link informado -->
-                        <area target="_blank" alt="Site do google" title="Site do google" href="https://www.google.com" coords="" shape="default">
+                        <area target="_self" alt="Promoção Loja" href="./loja.html" coords="" shape="default">
                     </map>
                     <!-- legenda da imagem -->
                     <!-- <div class="carousel-caption d-none d-md-block">
@@ -122,10 +122,10 @@
                 <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
                 <div class="carousel-item" data-bs-interval="6000">
                     <!-- imagem do carrousel -->
-                    <img src="img/imagens-carousel/48h-nike.webp" class="d-block w-100" alt="..." usemap="#carousel-image2">
+                    <img src="img/imagens-carousel/48h-nike.webp" class="d-block w-100" alt="promoção nike" usemap="#carousel-image2">
                     <!-- map area para a imagem ser clicável -->
                     <map name="#carousel-image2">
-                        <area target="_blank" alt="..." title="..." href="./blackfriday.html" coords="" shape="default">
+                        <area target="_self" alt="Tênis Nike" href="./calcados.html" coords="" shape="default">
                     </map>
                     <!-- legenda da imagem -->
                     <!-- <div class="carousel-caption d-none d-md-block">
@@ -137,10 +137,10 @@
                 <!-- linha que contem o intervalo da imagem (data-bs-interval="") -->
                 <div class="carousel-item" data-bs-interval="6000">
                     <!-- imagem do carrousel -->
-                    <img src="img/imagens-carousel/8440_full_verao.webp" class="d-block w-100" alt="..." usemap="#carousel-image3">
+                    <img src="img/imagens-carousel/8440_full_verao.webp" class="d-block w-100" alt="promoção tênis" usemap="#carousel-image3">
                     <!-- map area para a imagem ser clicável -->
                     <map name="#carousel-image3">
-                        <area target="_blank" alt="..." title="..." href="https://www.google.com" coords="" shape="default">
+                        <area target="_self" alt="Tênis Nike" href="./tenis.html" coords="" shape="default">
                     </map>
                     <!-- legenda da imagem -->
                     <!-- <div class="carousel-caption d-none d-md-block">
@@ -151,14 +151,14 @@
             </div>
     
             <!-- botão de próximo e anterior do carrousel -->
-            <button class="carousel-control-prev btn" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -174,12 +174,19 @@
          <div>
            <!-- imagem da seção 1 -->
             <div>
-             <img src="./img/nike_baner_1.jpg" class="img-fluid" width="100%">
+             <img src="./img/nike_baner_1.jpg" class="img-fluid" width="100%" usemap="#carousel-image4">
+             <map name="#carousel-image4">
+                <area target="_self" alt="Tênis Nike" href="./tenis.html" coords="" shape="default">
+            </map>
+             
            </div>
            <!-- fim da imagem da seção 1 -->
            <!-- imagem da seção 2 -->
            <div>
-             <img src="./img/frente2.png" class="img-fluid" width="100%">
+             <img src="./img/frente2.png" class="img-fluid" width="100%" usemap="#carousel-image5">
+             <map name="#carousel-image5">
+                <area target="_self" alt="Tênis Nike" href="./loja.html" coords="" shape="default">
+            </map>
            </div>
            <!-- fim imagem da seção 2 -->
     
@@ -261,7 +268,7 @@
                 </div>
                 <div class="col-sm-6 text-center">
                     <p>Todos os direitos reservados a &copy;Copyright</p>
-                    <p>Equipe: Andre - Denis - Gabriel - João - Kauan - Lucas - Marcos - Yukie </p>
+                    <p>Equipe: André - Denis - Gabriel - João - Kauan - Lucas - Marcos - Yukie </p>
                 </div>
             </div>
         </div>
