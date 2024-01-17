@@ -175,9 +175,17 @@
 							<input type="email" name="" class="form-control input_user" value=""
 								placeholder="Digite seu e-mail">
 						</div>
+						
 						<div class="d-flex justify-content-center mt-3 login_container">
-							<button type="submit" name="button" class="btn login_btn">Enviar código</button>
+							<button id="enviarCodigo" type="button" name="button" class="btn login_btn">Enviar código</button>
 						</div>
+						<script> 
+
+							document.getElementById('enviarCodigo').addEventListener("click", () => {
+								alert('Código Enviado');
+							});
+						
+						</script>
 					</form>
 				</div>
 
