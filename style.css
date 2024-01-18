@@ -15,6 +15,7 @@ a.btn.btn-outline-light.ml-5 {
     outline: none;
     border: 2px solid #17a2b8;
     margin-right: -35px;
+    padding-left: 15px;
 }
 
 .btn-busca-nav {
@@ -87,6 +88,7 @@ li.nav-item.botao-login-navbar {
     outline: none;
     border: 2px solid #ff9900;
     margin-right: -35px;
+    padding-left: 10px;
 }
 
 .btn-cep {
