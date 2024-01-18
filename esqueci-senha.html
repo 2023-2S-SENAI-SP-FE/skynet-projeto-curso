@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="./style.css">
 
 <!DOCTYPE html>
 <html>
@@ -104,55 +105,42 @@
 <body>
 	<header>
 
-		<nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+          
+            <div class="container container-fluid d-flex">
+            
+                <a href="index.html" class="navbar-brand">
+                  <img src="./img/logo_projeto_cortado.png" width="100px">
+                </a>
+      
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <div class="collapse navbar-collapse text-white justify-content-center" id="nav-principal">
+                    
+                    <ul class="navbar-nav">
+                                            
+                      <li class="nav-item pl-5 link-nav">
+                        <a href="loja.html" class="nav-link"><h5>LOJA</h5></a>
+                      </li>
+                      <li class="nav-item pl-5 link-nav">
+                          <a href="tenis.html" class="nav-link"><h5>NIKE</h5></a>
+                        </li>
+                        <li class="nav-item pl-5 link-nav">
+                          <a href="loja.html" class="nav-link"><h5>VESTUÁRIO</h5></a>
+                        </li>
+                        <li class="nav-item pl-5 link-nav">
+                            <a href="calcados.html" class="nav-link"><h5>CALÇADOS</h5></a>
+                        </li>
+                      <li class="nav-item pl-5 link-nav">
+                        <a href="./login.html" class="nav-link"><h5>LOGIN</h5></a>
+                      </li>
+                      
+                    </ul>
+            </div>
+        </nav>
 
-			<div class="container container-fluid d-flex">
-
-				<a href="index.html" class="navbar-brand">
-					<img src="./img/logo_projeto-removebg.png" width="142px">
-				</a>
-
-				<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse text-white justify-content-center" id="nav-principal">
-
-					<ul class="navbar-nav">
-
-						<li class="nav-item pl-5">
-							<a href="loja.html" class="nav-link">
-								<h5>LOJA</h5>
-							</a>
-						</li>
-						<li class="nav-item pl-5">
-							<a href="produto.html" class="nav-link">
-								<h5>NIKE</h5>
-							</a>
-						</li>
-						<li class="nav-item pl-5">
-							<a href="loja.html" class="nav-link">
-								<h5>VESTUÁRIO</h5>
-							</a>
-						</li>
-						<li class="nav-item pl-5">
-							<a href="calcados.html" class="nav-link">
-								<h5>CALÇADOS</h5>
-							</a>
-						</li>
-						<li class="nav-item pl-5">
-							<a href="./login.html" class="btn btn-outline-light btn-login-navbar">
-								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-									class="bi bi-person" viewBox="0 0 16 16">
-									<path
-										d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-								</svg>
-							</a>
-						</li>
-
-					</ul>
-				</div>
-		</nav>
 	</header>
 
 	<!-- login -->
