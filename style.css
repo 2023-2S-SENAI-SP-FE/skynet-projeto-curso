@@ -18,6 +18,10 @@ a.btn.btn-outline-light.ml-5 {
     padding-left: 15px;
 }
 
+::placeholder {
+    padding-left:-15px;
+}
+
 .btn-busca-nav {
     outline: none;
     border: none;
@@ -54,9 +58,9 @@ button.btn-busca-nav {
     text-decoration: none !important;
 }
 
-input.barra-pesquisa::placeholder {
+/* input.barra-pesquisa::placeholder {
     padding: 10px;
-}
+} */
 
 button.page-link {
     color: #17a2b8;
@@ -109,9 +113,9 @@ li.nav-item.botao-login-navbar {
     background-color: #ffbd5b;
 }
 
-input.barra-cep::placeholder {
+/* input.barra-cep::placeholder {
     padding: 10px;
-}
+} */
 
 div.card-text.d-flex.card-frete {
     flex-direction: column;
